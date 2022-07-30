@@ -18,6 +18,7 @@ export default function PostService(){
         setPage(page + 1)
         setIsLoading(false)
     }
+
     return {fetchFilmById, fetchFilmsByCat}
 }
 
